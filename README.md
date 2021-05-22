@@ -1,7 +1,7 @@
 # My Project Portfolio
 A showcase of my favourite projects. Accessible at: 
 
-    https://ekm224.github.io/portfolio/
+https://ekm224.github.io/portfolio/
 
 ## Dev flow
 
