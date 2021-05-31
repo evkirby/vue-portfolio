@@ -1,7 +1,7 @@
 <template>
+  <img class="code" alt="stinky code" src="../assets/code.jpg" />
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <HelloWorld msg="Evan Kirby McGregor" />
   </div>
 </template>
 
@@ -16,3 +16,15 @@ import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 })
 export default class Home extends Vue {}
 </script>
+
+<style lang="stylus">
+
+.code {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px !important;
+  z-index: -1;
+}
+
+</style>
