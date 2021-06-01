@@ -23,17 +23,17 @@ export default class HelloWorld extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="stylus">
-h3
-  margin 40px 0 0
+h1
+  font-family : "Playfair Display";
+  font-size : 60px;
+  font-weight: lighter;
+  font-style: italic;
+  color: white;
+  margin-top: 45px;
 
-ul
-  list-style-type none
-  padding 0
-
-li
-  display inline-block
-  margin 0 10px
-
-a
-  color #42b983
+p
+  font-size : 40px;
+  font-weight: lighter;
+  margin-left: 2%;
+  margin-top: 10px;
 </style>

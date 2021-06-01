@@ -1,5 +1,6 @@
 <template>
   <img class="code" alt="stinky code" src="../assets/code.jpg" />
+  <img class="background" alt="background" src="../assets/background.jpg" />
   <div class="home">
     <HelloWorld msg="Evan Kirby McGregor" />
   </div>
@@ -21,10 +22,29 @@ export default class Home extends Vue {}
 
 .code {
   position: absolute;
+  left: 20px;
+  top: 10px;
+  right: 20px;
+  width: 95%;
+  height: auto;
+  z-index: -1;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.background {
+  position: absolute;
   left: 0px;
   top: 0px;
-  right: 0px !important;
-  z-index: -1;
+  right: 0px;
+  width: 100%;
+  z-index: -2;
+  height: auto;
+}
+
+.home {
+  text-align: left;
+  margin-left: 10%;
 }
 
 </style>
