@@ -7,11 +7,11 @@
 </template>
 
 <style lang="stylus">
-#app
-  font-family "Playfair Display", Helvetica, Avenir
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color white
-  margin-top 60px
+#app {
+  font-family: 'Playfair Display', Helvetica, Avenir;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 60px;
+}
 </style>

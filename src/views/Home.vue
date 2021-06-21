@@ -1,9 +1,15 @@
 <template>
   <img class="code" alt="stinky code" src="../assets/code.jpg" />
-  <img class="background" alt="background" src="../assets/background.jpg" />
+  <img
+    class="backgroundColorFill"
+    alt="background"
+    src="../assets/background.jpg"
+  />
   <div class="home">
     <PresentationPage msg="Evan Kirby McGregor" />
   </div>
+  <div class="oval"></div>
+  <div class="whiteBackground"></div>
   <div class="projects">
     <ProjectGrid />
   </div>
@@ -24,7 +30,6 @@ export default class Home extends Vue {}
 </script>
 
 <style lang="stylus">
-
 .code {
   position: absolute;
   left: 20px;
@@ -37,7 +42,7 @@ export default class Home extends Vue {}
   filter: blur(2px);
 }
 
-.background {
+.backgroundColorFill {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -50,6 +55,25 @@ export default class Home extends Vue {}
 .home {
   text-align: left;
   margin-left: 10%;
+}
+
+.oval {
+  position: absolute;
+  top: 100%;
+  left: -10%;
+  right: -10%;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.whiteBackground {
+  position: absolute;
+  margin-top: 110%;
+  background-color: white;
+  height: 1000px;
+  left: -5px;
+  right: -5px;
 }
 
 .projects {
