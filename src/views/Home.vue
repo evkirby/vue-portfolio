@@ -4,15 +4,20 @@
   <div class="home">
     <PresentationPage msg="Evan Kirby McGregor" />
   </div>
+  <div class="projects">
+    <ProjectGrid />
+  </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import PresentationPage from "@/components/PresentationPage.vue";
+import ProjectGrid from "@/components/ProjectGrid.vue";
 
 @Options({
   components: {
     PresentationPage,
+    ProjectGrid,
   },
 })
 export default class Home extends Vue {}
@@ -47,4 +52,12 @@ export default class Home extends Vue {}
   margin-left: 10%;
 }
 
+.projects {
+  position: absolute;
+  top: 100%;
+  align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20%;
+}
 </style>
