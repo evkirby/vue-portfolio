@@ -2,17 +2,17 @@
   <img class="code" alt="stinky code" src="../assets/code.jpg" />
   <img class="background" alt="background" src="../assets/background.jpg" />
   <div class="home">
-    <HelloWorld msg="Evan Kirby McGregor" />
+    <PresentationPage msg="Evan Kirby McGregor" />
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import PresentationPage from "@/components/PresentationPage.vue";
 
 @Options({
   components: {
-    HelloWorld,
+    PresentationPage,
   },
 })
 export default class Home extends Vue {}
