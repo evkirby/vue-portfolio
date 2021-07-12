@@ -5,7 +5,7 @@
     alt="background"
     src="../assets/background.jpg"
   />
-  <div class="home">
+  <div class="introduction">
     <PresentationPage msg="Evan Kirby McGregor" />
   </div>
   <div class="oval"></div>
@@ -29,14 +29,14 @@ import ProjectGrid from "@/components/ProjectGrid.vue";
 export default class Home extends Vue {}
 </script>
 
-<style lang="stylus">
+<style scoped lang="stylus">
 .code {
   position: absolute;
   left: 20px;
   top: 10px;
   right: 20px;
-  width: 95%;
-  height: auto;
+  width: auto;
+  height: 110%;
   z-index: -1;
   -webkit-filter: blur(2px);
   filter: blur(2px);
@@ -49,12 +49,17 @@ export default class Home extends Vue {}
   right: 0px;
   width: 100%;
   z-index: -2;
-  height: auto;
+  height: 110%;
 }
 
-.home {
+.introduction {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 200px;
   text-align: left;
   margin-left: 10%;
+  height: 100px;
+  overflow: unset;
 }
 
 .oval {
