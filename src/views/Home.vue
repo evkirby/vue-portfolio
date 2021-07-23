@@ -5,6 +5,9 @@
     alt="background"
     src="../assets/background.jpg"
   />
+  <div class="locale-changer">
+    <LocaleChanger />
+  </div>
   <div class="introduction">
     <PresentationPage msg="Evan Kirby McGregor" />
   </div>
@@ -19,11 +22,13 @@
 import { Options, Vue } from "vue-class-component";
 import PresentationPage from "@/components/PresentationPage.vue";
 import ProjectGrid from "@/components/ProjectGrid.vue";
+import LocaleChanger from "@/components/LocaleChanger.vue";
 
 @Options({
   components: {
     PresentationPage,
     ProjectGrid,
+    LocaleChanger,
   },
 })
 export default class Home extends Vue {}
@@ -60,6 +65,14 @@ export default class Home extends Vue {}
   margin-left: 10%;
   height: 100px;
   overflow: unset;
+}
+
+.locale-changer {
+  background-color: white;
+  top: 10px;
+  left: 100px;
+  right: 100px;
+  height: 30px;
 }
 
 .oval {
