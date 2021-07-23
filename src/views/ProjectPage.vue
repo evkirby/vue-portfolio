@@ -27,5 +27,4 @@ export default class PresentationPage extends Vue {
 computed;
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

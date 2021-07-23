@@ -11,10 +11,10 @@ export default createStore({
       {
         id: "music",
         title: "Music Visualizer",
-        description: 
+        description:
           "Javascript web app that brings music to life using Fourier transform",
       },
-    ]
+    ],
   },
   mutations: {},
   actions: {},
@@ -22,7 +22,7 @@ export default createStore({
   getters: {
     getProjectByID: (state) => (projectId: string) => {
       // Error page if no project matching
-      return state.projects.find(project => project.id == projectId);
-    }
+      return state.projects.find((project) => project.id == projectId);
+    },
   },
 });
