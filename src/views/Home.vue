@@ -1,10 +1,4 @@
 <template>
-  <img class="code" alt="stinky code" src="../assets/code.jpg" />
-  <img
-    class="backgroundColorFill"
-    alt="background"
-    src="../assets/background.jpg"
-  />
   <div class="locale-changer">
     <LocaleChanger />
   </div>
@@ -16,6 +10,12 @@
   <div class="projects">
     <ProjectGrid />
   </div>
+  <img class="code" alt="stinky code" src="../assets/code.jpg" />
+  <img
+    class="backgroundColorFill"
+    alt="background"
+    src="../assets/background.jpg"
+  />
 </template>
 
 <script lang="ts">
@@ -60,19 +60,17 @@ export default class Home extends Vue {}
 .introduction {
   position: sticky;
   position: -webkit-sticky;
-  top: 200px;
+  top: 0px;
   text-align: left;
   margin-left: 10%;
-  height: 100px;
   overflow: unset;
 }
 
 .locale-changer {
-  background-color: white;
   top: 10px;
-  left: 100px;
-  right: 100px;
   height: 30px;
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 .oval {
