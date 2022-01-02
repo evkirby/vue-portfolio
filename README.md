@@ -1,11 +1,13 @@
-# My Project Portfolio
+# Outdated project, see https://github.com/EKM224/portfolio for most recent version.
+
+## My Project Portfolio
 A showcase of my favourite projects. Accessible at: 
 
 https://ekm224.github.io/portfolio/
 
-## Dev flow
+### Dev flow
 
-### Project setup
+#### Project setup
 ```
 yarn install
 ```
